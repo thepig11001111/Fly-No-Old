@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #f8fafc;
+  --color-text: #0f172a;
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-buyer: #059669;
+  --color-buyer-light: #d1fae5;
+  --color-seller: #d97706;
+  --color-seller-light: #fef3c7;
+  --color-partner: #7c3aed;
+  --color-partner-light: #ede9fe;
+  --color-border: #e2e8f0;
+  --color-card-bg: #ffffff;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
